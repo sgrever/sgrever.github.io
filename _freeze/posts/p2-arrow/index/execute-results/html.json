@@ -1,0 +1,15 @@
+{
+  "hash": "a9b8d6bed3649f33bc75c17abcbd6f4c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Apache Arrow for Dispatch Calls\"\nauthor: \"Sara Grever\"\ndate: \"2025-02-07\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\n\nThis is a post with executable code.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

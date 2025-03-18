@@ -1,0 +1,27 @@
+---
+title: "Apache Arrow for Dispatch Calls"
+author: "Sara Grever"
+date: "2025-02-07"
+categories: [apache, r]
+image: "arrow-ems-1.png"
+---
+
+How I leveraged Apache Arrow to analyze NYCs EMS Dispatch calls from 2007-2023.  
+
+---
+
+In resource-limited and siloed organizations, data sharing is cumbersome. This is especially the case when departments without a shared platform must collaboratively process datasets. This inspired me to leverage [Apache Arrow](https://arrow.apache.org/) as a means to ingest, process, and analyze big data.
+
+![Apache Arrow logo](arrow-ems-2.png)
+
+This project uses New York City dispatch calls data from 2007 to 2024. The [EMS Incident Dispatch Data](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj/about_data) contains 27M records detailing incident location, perceived call severity, and Fire Department response time.  
+
+![Call codes distribution](arrow-ems-1.png)
+
+For full details, please see the following:  
+
+### [REPORT](https://sgrever.github.io/arrow-ems/) 
+
+### [CODE (REPO)](https://github.com/sgrever/arrow-ems) 
+
+

@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Sara Grever"
+  navbar:
+    right:
+      - posts-page.qmd
+      - icon: github
+        href: https://github.com/sgrever
+      - icon: linkedin
+        href: https://www.linkedin.com/in/saragrever/
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

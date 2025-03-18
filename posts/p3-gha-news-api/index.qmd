@@ -1,0 +1,29 @@
+---
+title: "GitHub Actions News API"
+author: "Sara Grever"
+date: "2025-02-22"
+categories: [quarto, r, api, cicd]
+image: "techfeed-1.png"
+---
+
+A news feed for tech-related news, deployed and refreshed by Github Actions.  
+
+---
+
+Using the [News API](https://newsapi.org/), I pull top articles for the API category 'Technology' as well as keywords 'Cybersecurity', 'DOGE', and 'OpenAI'. The json results are cleaned and formatted into an interactive table. 
+
+![*Website preview*](techfeed-1.png)
+
+
+Clicking anywhere in a table row opens the full-length article. Additionally, hovering over table headers reveals a descriptive text.
+
+![*Tooltip text*](tooltip-headers.png)
+
+The website refreshes itself each Sunday through Github Actions. For full details, please see the following:  
+
+### [WEBSITE](https://sgrever.github.io/tech-feed/#) 
+
+### [CODE (REPO)](https://github.com/sgrever/tech-feed) 
+
+
+

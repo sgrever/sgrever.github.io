@@ -1,0 +1,27 @@
+---
+title: "About Me"
+image: img/headshot.jpg
+about:
+  template: jolla
+  links:
+    - icon: file-bar-graph
+      text: Projects
+      href: https://github.com/sgrever
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/saragrever/
+    - icon: github
+      text: Github
+      href: https://github.com/sgrever
+
+---
+
+Welcome! I've been a healthcare data analytics professional for two years, supporting community health data management, impact evaluation, and accreditation at Kaiser Permanente. Prior to this, I conducted descriptive analytics for Social Determinants of Health research.  
+
+I'm drawn to **collaborating**, **building** and **deploying** R solutions for clean, efficient data workflows.  
+
+In my free time, I enjoy aerial hammock, cooking Sweetgreen dupes, and reading sci-fi.
+
+<h4>[PROJECTS](github.com)</h4>  
+
+
